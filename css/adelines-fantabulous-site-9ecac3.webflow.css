@@ -80,7 +80,7 @@ h4 {
 }
 
 .background {
-  background-image: url('../images/barbie.png');
+  background-image: url('../images/IMG_2942.jpg');
   background-position: 40% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,10 +215,13 @@ h4 {
 }
 
 .brand {
-  color: #fff;
+  color: rgba(0, 0, 0, 0);
   text-align: center;
   letter-spacing: 4px;
   text-transform: uppercase;
+  background-image: url('../images/Adeline-Rieder-Portfolio-Logo.png');
+  background-position: 0 0;
+  background-size: auto;
   justify-content: center;
   align-items: center;
   padding-left: 0;
@@ -1578,6 +1581,12 @@ h4 {
   position: static;
 }
 
+.div-block {
+  background-image: url('../images/Adeline-Rieder-Portfolio-Logo.png');
+  background-position: 0 0;
+  background-size: auto;
+}
+
 @media screen and (min-width: 1280px) {
   .testimonial-slide-wrapper {
     min-height: 750px;
@@ -1591,6 +1600,10 @@ h4 {
 }
 
 @media screen and (min-width: 1440px) {
+  .background {
+    background-image: url('../images/IMG_2942.jpg');
+  }
+
   .testimonial-slide-wrapper {
     min-height: 850px;
   }
@@ -2046,6 +2059,10 @@ h4 {
     min-height: 350px;
   }
 
+  .background {
+    background-image: url('../images/IMG_2942.jpg');
+  }
+
   .navbar {
     border-bottom: 1px none var(--light-outline);
   }
@@ -2079,6 +2096,15 @@ h4 {
     font-size: 36px;
   }
 
+  .subtitle {
+    margin-top: 91px;
+  }
+
+  .body-display {
+    margin-bottom: 58px;
+    padding-top: 0;
+  }
+
   .logo {
     min-width: 150px;
   }
@@ -2094,6 +2120,8 @@ h4 {
   .large-growing-images.small {
     height: 55vw;
     min-height: auto;
+    margin-top: -165px;
+    margin-bottom: 213px;
   }
 
   .testimonial-slide-wrapper {
@@ -2145,6 +2173,19 @@ h4 {
     padding: 24px 24px 36px;
   }
 
+  .growing-image.small {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .growing-image.right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .showcase-image {
     height: 80vw;
   }
@@ -2185,6 +2226,33 @@ h4 {
 
   .paragraph-heading {
     font-size: 28px;
+  }
+
+  .image {
+    padding-top: 194px;
+  }
+
+  .image-2 {
+    margin-top: 125px;
+    margin-bottom: -9px;
+  }
+
+  .image-3 {
+    margin-top: 114px;
+    padding-top: 78px;
+  }
+
+  .image-4 {
+    padding-top: 142px;
+  }
+
+  .image-5 {
+    margin-top: 74px;
+    padding-top: 65px;
+  }
+
+  .image-6 {
+    margin-top: 117px;
   }
 }
 
@@ -2771,6 +2839,10 @@ h4 {
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-_8f5b08b8-6240-aa1c-fc33-3b4342f065a7-42f06588 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
   #w-node-_457de149-c4b4-5098-aad8-847bab68d647-fd4e856c, #w-node-_457de149-c4b4-5098-aad8-847bab68d648-fd4e856c, #w-node-_457de149-c4b4-5098-aad8-847bab68d649-fd4e856c {
     justify-self: center;
   }
